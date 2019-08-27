@@ -5,4 +5,5 @@ export default props =>
     <div>
         {props.name}
         <strong> {props.lastname}</strong>
+        <strong> {props.number}</strong>
     </div>
