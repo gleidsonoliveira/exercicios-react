@@ -8,18 +8,25 @@ import ReactDom from 'react-dom'
 // import Familia from './componentes/Ex02/Familia'
 // import Membro from './componentes/Ex02/Membro';
 // import ComponenteComfuncao from './componentes/Ex02/ComponenteComfuncao';
-import Pai from './componentes/Ex03/Pai';
-
-import ComponenteClasse from './componentes/Ex04/ComponenteClasse'
+// import Pai from './componentes/Ex03/Pai';
+// import ComponenteClasse from './componentes/Ex04/ComponenteClasse'
+// import Contador from './componentes/Ex05/Contador'
+import Hook from './componentes/Ex06/Hook'
 
 //Exemplo da utilização do (JSX)
 const elemento = document.getElementById('root');
 
 ReactDom.render(
     <div>
+        <Hook />
+
+
+
+        {/* <Contador numero={11} /> */}
         {
             // <ComponenteClasse valor={111}/>
-            <Pai></Pai>
+            // <Pai></Pai>
+
         }
         {/* <ComponenteComfuncao></ComponenteComfuncao> */}
 
